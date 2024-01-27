@@ -1,0 +1,137 @@
+/* ////////////////////////Product Page/////////////////////////// */
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f6f3e2;
+  margin: 0 20px;
+}
+
+.product{
+  border: 1px solid black;
+  width: 25%;
+  margin: 30px;
+  text-align: center;
+}
+
+.product img{
+  width: 100%;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.product p {
+  color: #b74600;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+}
+
+body{
+  background-color: #f6f3e2;
+}
+
+.product-info{
+  text-align: center;
+}
+
+.plp-image {
+  margin: 10px 30px;
+}
+
+.plp-header {
+  margin: 0 30px;
+}
+
+/* //////////////////////////////////////////User Icon///////////////////////////////////// */
+
+.user-icon {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+/* /////////////////////////////////Login Page////////////////////////////////////////// */
+
+.Login-container {
+ text-align: center;
+ margin: auto;
+ max-width: 800px;
+}
+
+.login-input{
+  display: block;
+  width: 60%;
+  height: 50px;
+  
+  border:1px solid #b74600;
+  margin: 10px auto;
+}
+
+.login-submit-button {
+  width: 60%;
+  background-color: #b74600;
+  color: white;
+  height: 40px;
+}
+
+.login-home-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+
+/* /////////////////////////PDP PAGE//////////////////////////////// */
+
+.pdp-outer-container{
+  display: flex;
+  max-width: 70%;
+  margin: 135px auto;
+  border: 1px solid black;
+}
+.pdp-outer-container p {
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: PlutoMedium, sans-serif;
+  
+}
+
+
+.pdp-details {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 50px;
+}
+
+.pdp-product-info {
+  font-size: 18px;
+}
+
+.product-name{
+  font-size: 25px;
+  font-weight: 900;
+  color: #b74600;
+}
+
+.pdp-image {
+  max-width: 400px;
+  max-height: 500px;
+  margin: 40px auto;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+}
+
+.pipcorn {
+  
+  font-family: 'Courier New', Courier, monospace;
+  margin: 30px;
+
+
+}
+
